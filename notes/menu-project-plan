@@ -1,0 +1,43 @@
+
+
++ İşletmeye özel menüleri
+	- özel link: isletme.menuer.com/menu
++ Çeşitli templateler
++ API
++ statistics: görüntülenme sayısı, ürün sayısı, qr sayısı, işletme sayısı
++ İşletmeye özel managing panel: menüye ürün ekleme fiyat değiştirme vs.
++ Dil desteği
+
+
+Özellikler:
+	- Yiyeceklerin alerjen özellikleri
+	- Yiyeceklerin hazırlanma süreleri
+	- Yiyeceklerin yanında güzel gidebilecek yiyecek/içecek önerileri
+	- İşletme değerlendirme/feedback
+	- İşletme bilgileri + işletme sosyal medyası
+	- Masaya özel QR kodlar (Sipariş hazırlama için gerekli)
+	- Sipariş hazırlama
+		- Siparişi müşteri istediği gibi düzenler, bu sipariş QR kod aracılığıyla garsona iletilir bu sayede sipariş hatasız alınmış olur (complex siparişler)
+	- Çoklu dil desteği (İngilizce, Rusça, Almanca, Arapça, Azerbaycan Dili, İspanyolca, Ukraynaca, İtalyanca, Fransızca, Japonca, Yunanca, Korece, Çince)
+	- Fiyatlandırmada, müşteri tarafından seçilen doviz biçimine ortalama bir fiyat gösterme 45TL -> ~1.5$
+	- İstatistik veriler: müşterilerin en çok beğendiği yiyecekler/içecekler, en çok sipariş edilenler, haftanın hangi günleri ne kadar sipariş alınıyor
+	- Son fiyat değişikliği tarih
+	- İşletme hakkında kısmı
+		- İşletme türleri: cafe, pastry, breakfast, credit card, cash, sodexo... cocktail, pies & cakes (desserts)
+		- işletme çalışma saatleri
+		- lokasyon bilgileri (google maps embed)
+		- işletme telefon numarası
+		- işletme internet sitesi
+	- işletme status: open/closed
+
+setInterval(function() {
+    let element = document.getElementById("text-8tz8intd6da");
+    let font = "\"Bon Vivant Family Script\"";
+    let font_family = element.getAttribute("font-family");
+    if (font_family != font) {
+        element.setAttribute("font-family", font);
+    }
+}, 2000);
+
+
+
